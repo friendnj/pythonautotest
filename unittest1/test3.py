@@ -1,0 +1,17 @@
+from count import is_prime
+import unittest
+
+
+class Test(unittest.TestCase):
+
+    def setUp(self):
+        print("test start")
+
+    def test_case(self):
+        self.assertTrue(is_prime(7),msg="is not prime!")
+
+    def tearDown(self):
+        print("test end")
+
+if __name__=="__name__":
+    unittest.main()
