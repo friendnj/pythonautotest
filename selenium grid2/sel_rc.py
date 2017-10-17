@@ -1,5 +1,5 @@
 from selenium import selenium
-sel=selenium("localhost",4444,"*firefox","http://www.baidu.com")
+sel=selenium("localhost",4444,"*firefox","http://www.baidu.com/")
 
 sel.start()
 
